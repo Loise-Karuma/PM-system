@@ -10,4 +10,7 @@ import lombok.NoArgsConstructor;
 public class MessageResponse {
 
     private String message;
+
+    public MessageResponse(String userInvitationSent) {
+    }
 }
